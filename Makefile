@@ -3,7 +3,7 @@ CXX=g++
 CXX_FLAGS= -I src/include
 CXX_LIBS=
 
-BINARY=server
+BINARY=program
 
 OBJS= \
 	src/main.o	

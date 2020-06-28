@@ -1,6 +1,6 @@
 CXX=g++
 
-CXX_FLAGS= -I src/include
+CXX_FLAGS= -I src
 CXX_LIBS=
 
 BINARY=program

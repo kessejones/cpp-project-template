@@ -1,6 +1,6 @@
 CXX=g++
 
-CXX_FLAGS= -I src
+CXX_FLAGS= -I src -Wall -Werror -Wextra
 CXX_LIBS=
 
 BINARY=program

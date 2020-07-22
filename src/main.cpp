@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main(int argc, char const* argv[])
+int main(int, const char **)
 {
     return 0;
 }

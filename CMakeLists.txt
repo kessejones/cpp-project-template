@@ -8,4 +8,10 @@ add_custom_target(run
     USES_TERMINAL
 )
 
+add_custom_target(build-run
+    COMMAND ${CMAKE_MAKE_PROGRAM} install
+    COMMAND ${CMAKE_MAKE_PROGRAM} run
+    USES_TERMINAL
+)
+
 add_subdirectory(src)

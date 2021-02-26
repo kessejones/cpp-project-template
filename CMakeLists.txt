@@ -4,7 +4,7 @@ project(CppProject CXX)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Werror -Wextra")
 
 add_custom_target(run
-    COMMAND ${CMAKE_COMMAND} -E env ${CMAKE_BINARY_DIR}/CppBase
+    COMMAND ${CMAKE_COMMAND} -E env ${CMAKE_BINARY_DIR}/${CMAKE_PROJECT_NAME}
     USES_TERMINAL
 )
 
